@@ -1,4 +1,5 @@
 apply plugin: 'java'
+apply plugin: 'idea'
 
 group="com.github.kschulst.bean-validation-metadata"
 version="1.0-SNAPSHOT"
