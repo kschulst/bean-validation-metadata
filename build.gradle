@@ -1,0 +1,15 @@
+apply plugin: 'java'
+
+group="com.github.kschulst.bean-validation-metadata"
+version="1.0-SNAPSHOT"
+
+sourceCompatibility = 1.5
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.slf4j:slf4j-api:1.7.5'
+    testCompile "junit:junit:4.11"
+}
