@@ -1,0 +1,1 @@
+Generate metadata such as "human readable" documentation from bean-validation (JSR 349, JSR 303) annotations.
