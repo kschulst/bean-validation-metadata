@@ -4,7 +4,7 @@ apply plugin: 'idea'
 group="com.github.kschulst.bean-validation-metadata"
 version="1.0-SNAPSHOT"
 
-sourceCompatibility = 1.5
+sourceCompatibility = 1.6
 
 repositories {
     mavenCentral()
@@ -12,5 +12,8 @@ repositories {
 
 dependencies {
     compile 'org.slf4j:slf4j-api:1.7.5'
+    compile 'javax.validation:validation-api:1.1.0.Final'
+    compile 'org.hibernate:hibernate-validator:5.1.0.Alpha1'
     testCompile "junit:junit:4.11"
+    testCompile 'org.projectlombok:lombok:0.12.0'
 }
